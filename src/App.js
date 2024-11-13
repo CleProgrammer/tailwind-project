@@ -3,6 +3,8 @@ import ImgCarro from "./images/carro.png"
 import './App.css';
 
 function App() {
+  const c = (cl) => document.querySelector(cl)
+
   return (
     <section className="bg-gray-100 w-screen h-screen flex flex-col items-center">
       <header className="bg-white w-screen h-10 flex justify-center items-center">
